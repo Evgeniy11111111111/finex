@@ -1,0 +1,77 @@
+.city {
+  padding: 55px 0;
+}
+.city__title-wrap {
+  margin-bottom: 40px;
+}
+.city__title-desc {
+  background-color: var(--white);
+  max-width: 737px;
+  padding: 0 35px;
+}
+.city__box:not(:last-child) {
+  margin-bottom: 40px;
+}
+.city__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.city__content {
+  max-width: 830px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+.city__block {
+  max-width: 783px;
+  width: 100%;
+}
+.city__block:not(:last-child) {
+  margin-bottom: 40px;
+}
+.city__block-list {
+  max-width: 830px;
+}
+.city__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.city__item {
+  position: relative;
+}
+.city__info-item:not(:last-child) {
+  margin-bottom: 5px;
+}
+
+@media screen and (max-width: 639px) {
+  .city {
+    padding: 40px 0;
+  }
+  .city__title-wrap {
+    margin-bottom: 35px;
+  }
+  .city__block:not(:last-child) {
+    margin-bottom: 30px;
+  }
+}
+/*# sourceMappingURL=city.css.map */

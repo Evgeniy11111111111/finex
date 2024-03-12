@@ -1,0 +1,38 @@
+.hero {
+  padding-bottom: 55px;
+}
+.hero__top {
+  padding-bottom: 110px;
+}
+.hero__img {
+  height: 584px;
+}
+
+@media screen and (max-width: 991px) {
+  .hero__top {
+    padding-bottom: 70px;
+  }
+  .hero__svg-link svg {
+    width: 139.18px;
+    height: 50px;
+  }
+  .hero__img {
+    height: 865px;
+  }
+}
+@media screen and (max-width: 639px) {
+  .hero {
+    padding-bottom: 40px;
+  }
+  .hero__top {
+    padding-bottom: 50px;
+  }
+  .hero__svg-link svg {
+    width: 83.51px;
+    height: 30px;
+  }
+  .hero__img {
+    height: 480px;
+  }
+}
+/*# sourceMappingURL=hero.css.map */
