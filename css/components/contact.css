@@ -77,6 +77,16 @@
   -moz-column-gap: 20px;
   column-gap: 20px;
 }
+.contacts__select {
+  border-radius: 0;
+  border: 1px solid var(--black-opacity-60);
+  font-size: 2rem;
+  line-height: 120%;
+  letter-spacing: -2%;
+  height: 40px;
+  padding: 8px 20px;
+  color: var(--black-opacity-70);
+}
 .contacts__btn {
   margin-top: 20px;
 }
@@ -145,6 +155,10 @@
     margin-top: 15px;
   }
   .contacts__input {
+    font-size: 1.6rem;
+    padding: 10px 10px 11px;
+  }
+  .contacts__select {
     font-size: 1.6rem;
     padding: 10px 10px 11px;
   }
