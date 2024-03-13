@@ -62,6 +62,10 @@
 .city__info-item:not(:last-child) {
   margin-bottom: 5px;
 }
+.city__nowrap {
+  white-space: nowrap;
+  display: inline-block;
+}
 
 @media screen and (max-width: 639px) {
   .city {

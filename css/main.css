@@ -251,7 +251,6 @@ p {
   font-size: 3.6rem;
   line-height: 100%;
   font-weight: 700;
-  font-weight: 300;
 }
 
 .descr-bold {
@@ -673,6 +672,10 @@ p {
 }
 .city__info-item:not(:last-child) {
   margin-bottom: 5px;
+}
+.city__nowrap {
+  white-space: nowrap;
+  display: inline-block;
 }
 
 @media screen and (max-width: 639px) {
