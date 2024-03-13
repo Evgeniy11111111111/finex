@@ -282,6 +282,14 @@ p {
   letter-spacing: -2%;
 }
 
+.descr-white {
+  font-size: 1.2rem;
+  line-height: 100%;
+  letter-spacing: -2%;
+  color: var(--white);
+  font-weight: 300;
+}
+
 @media screen and (max-width: 991px) {
   .link-text {
     font-size: 6.5rem;
@@ -524,6 +532,18 @@ p {
 }
 .hero__img {
   height: 584px;
+  position: relative;
+}
+.hero__img-descr {
+  position: absolute;
+  bottom: 30px;
+  right: 10px;
+  -webkit-writing-mode: vertical-rl;
+  -ms-writing-mode: tb-rl;
+  writing-mode: vertical-rl;
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
 }
 
 @media screen and (max-width: 991px) {

@@ -6,6 +6,18 @@
 }
 .hero__img {
   height: 584px;
+  position: relative;
+}
+.hero__img-descr {
+  position: absolute;
+  bottom: 30px;
+  right: 10px;
+  -webkit-writing-mode: vertical-rl;
+  -ms-writing-mode: tb-rl;
+  writing-mode: vertical-rl;
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
 }
 
 @media screen and (max-width: 991px) {
